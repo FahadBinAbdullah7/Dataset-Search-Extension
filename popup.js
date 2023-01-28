@@ -1,10 +1,10 @@
 // popup.js
 
 // Replace YOUR_API_KEY with your actual API key
-const API_KEY = 'AIzaSyCpN0w0-EyFJ9jPPkHCDNkCk9i_Ly_poyI';
+const API_KEY = 'YOUR_API_KEY';
 
 // Replace YOUR_CX_CODE with your actual CX code
-const CX_CODE = '0638ecfb5a3c44da8';
+const CX_CODE = 'Your Code';
 
 const searchForm = document.querySelector('form');
 const searchInput = document.querySelector('#search-input');
