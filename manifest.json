@@ -1,0 +1,15 @@
+
+{
+    "manifest_version": 3,
+    "name": "Customize Search Extension",
+    "version": "1.0",
+    "permissions": ["activeTab", "https://cse.google.com/"],
+    "content_scripts": [{
+      "matches": ["<all_urls>"],
+      "js": ["popup.js"]
+    }],
+    "action": {
+      "default_popup": "popup.html"
+    }
+  }
+  
