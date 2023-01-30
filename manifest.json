@@ -1,7 +1,7 @@
 
 {
     "manifest_version": 3,
-    "name": "Customize Search Extension",
+    "name": "Dataset Search Extension",
     "version": "1.0",
     "permissions": ["activeTab", "https://cse.google.com/"],
     "content_scripts": [{
